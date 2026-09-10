@@ -1,6 +1,6 @@
 # Doc My A$$ (`doc-my-ass`)
 
-**Doc My A$$** is the developer-first documentation system and WordPress plugin for the **Whole A102434 Network** (`securemyass.com`).
+**Doc My A$$** is the developer-first documentation system and WordPress plugin for the **Whole A$$ Network** (`securemyass.com`).
 
 Built to meet the uncompromising standards of modern web developers (inspired by Stripe, Tailwind CSS, Laravel, and Astro), it features:
 
@@ -21,7 +21,7 @@ Built to meet the uncompromising standards of modern web developers (inspired by
 3. **Secure My Ass** (`secure-my-ass`): AST web shell scanner, autonomous quarantine, login cloaking, Gemini AI SOC Analyst.
 4. **Speed My A$$ Up** (`speed-my-ass-up`): Sub-0.5ms pre-boot HTML caching, W3C speculation rules, BYOK AI CSS scanner.
 5. **Compress My A$$** (`compress-my-ass`): Zero-SaaS WebP/AVIF local compilation, master vault, `<picture>` rewriting.
-6. **Whole A102452 API & Network** (`whole-ass-network`): Swarm threat intelligence telemetry, licensing lifecycle, auto-updates.
+6. **Whole A$$ API & Network** (`whole-ass-network`): Swarm threat intelligence telemetry, licensing lifecycle, auto-updates.
 
 ---
 

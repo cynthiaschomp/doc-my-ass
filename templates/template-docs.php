@@ -105,7 +105,7 @@ $product_meta_list = [
     'secure-my-ass'   => ['name' => 'Secure My Ass',   'badge' => 'Core Endpoint',  'icon' => '🔐'],
     'speed-my-ass-up' => ['name' => 'Speed My A$$ Up', 'badge' => 'Cache & CWV',   'icon' => '⚡'],
     'compress-my-ass' => ['name' => 'Compress My A$$', 'badge' => 'Image Engine',  'icon' => '🗜️'],
-    'whole-ass-network'    => ['name' => 'Whole A102452 API',    'badge' => 'Swarm & Cloud',  'icon' => '🌐'],
+    'whole-ass-network'    => ['name' => 'Whole A$$ API',    'badge' => 'Swarm & Cloud',  'icon' => '🌐'],
 ];
 ?>
 <!DOCTYPE html>

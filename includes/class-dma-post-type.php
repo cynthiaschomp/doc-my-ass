@@ -48,7 +48,7 @@ class DMA_Post_Type {
 
         $args = [
             'label'                 => __('Doc My A$$', 'doc-my-ass'),
-            'description'           => __('Technical documentation for Doc My A$$ and the Whole A102434 Network', 'doc-my-ass'),
+            'description'           => __('Technical documentation for Doc My A$$ and the Whole A$$ Network', 'doc-my-ass'),
             'labels'                => $labels,
             'supports'              => ['title', 'editor', 'author', 'revisions', 'page-attributes', 'custom-fields'],
             'taxonomies'            => ['dma_product', 'dma_topic'],
@@ -138,7 +138,7 @@ class DMA_Post_Type {
             ],
             'secure-my-ass'   => [
                 'name'        => 'Secure My Ass',
-                'description' => 'Zero-Day AST Scanner, Web Shell Quarantine Vault & A102434 AI SOC Analyst',
+                'description' => 'Zero-Day AST Scanner, Web Shell Quarantine Vault & A$$ AI SOC Analyst',
                 'icon'        => 'lock',
                 'badge'       => 'Core Endpoint'
             ],
@@ -155,7 +155,7 @@ class DMA_Post_Type {
                 'badge'       => 'Media / WebP'
             ],
             'whole-ass-network'    => [
-                'name'        => 'Whole A102434 API & Network',
+                'name'        => 'Whole A$$ API & Network',
                 'description' => 'Swarm Threat Intelligence Telemetry Ingestion & Licensing Architecture',
                 'icon'        => 'code',
                 'badge'       => 'API / Swarm'

@@ -20,7 +20,7 @@ Secure My Ass manages commercial licensing and automated updates without relying
 When a customer completes a purchase on `securemyass.com`, Stripe fires a `checkout.session.completed` webhook. The server:
 
 1. Validates the Stripe webhook cryptographic signature.
-2. Derives an unguessable license key (e.g. `SMA-PRO-8894-B7A2-LIVE`).
+2. Derives an unguessable license key (e.g. `SMA-PRO-8894-B7A$$-LIVE`).
 3. Sends a welcome email containing the license token and installation instructions.
 4. Activates the client's automated release update stream.
 
@@ -28,7 +28,7 @@ When a customer completes a purchase on `securemyass.com`, Stripe fires a `check
 
 ## 2. Native WordPress Update Integration
 
-Plugins in the Whole A102434 Network hook into WordPress's native `site_transient_update_plugins` filter:
+Plugins in the Whole A$$ Network hook into WordPress's native `site_transient_update_plugins` filter:
 
 ```php [class-license-client.php]
 // Queries SecureMyAss.com release server

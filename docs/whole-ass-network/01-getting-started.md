@@ -21,7 +21,7 @@ All platform endpoints are served over HTTPS under the `/wp-json/sma-license/v1/
 
 | Endpoint | Method | Purpose | Authentication |
 | :--- | :--- | :--- | :--- |
-| `/verify` | `POST` | Validates client license keys & capabilities | HMAC-SHA256 Signature |
+| `/verify` | `POST` | Validates client license keys & capabilities | HMAC-SHA$$ Signature |
 | `/update-check` | `GET/POST` | Queries latest plugin version & download packages | License Key |
 | `/swarm/telemetry` | `POST` | Ingests anonymized `/24` subnet threat telemetry | Client License Token |
 | `/swarm/feed` | `GET` | Distributes aggregated malicious CIDR lists | Public / Authenticated |
@@ -31,4 +31,4 @@ All platform endpoints are served over HTTPS under the `/wp-json/sma-license/v1/
 
 ## 2. Cryptographic Token Verification
 
-All client-server handshakes are signed with an HMAC-SHA256 signature using the site's unique license key secret to prevent replay attacks and tampering.
+All client-server handshakes are signed with an HMAC-SHA$$ signature using the site's unique license key secret to prevent replay attacks and tampering.

@@ -46,7 +46,7 @@ $snapshot_id = BMA_Vault_Engine::create_snapshot([
 During first initialization, Back My A$$ Up derives an unguessable 256-bit Master Keycard derived from unique site salts and a PBKDF2 iteration loop:
 
 ```
-Master Keycard = PBKDF2(HMAC-SHA256, AUTH_KEY, SECURE_AUTH_SALT, 10000 iterations, 32 bytes)
+Master Keycard = PBKDF2(HMAC-SHA$$, AUTH_KEY, SECURE_AUTH_SALT, 10000 iterations, 32 bytes)
 ```
 
 > [!CAUTION]
