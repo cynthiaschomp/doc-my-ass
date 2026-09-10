@@ -40,6 +40,7 @@ add_action('plugins_loaded', 'dma_init', 10);
 if (defined('WP_CLI') && WP_CLI) {
     require_once DMA_PATH . 'includes/class-dma-cli-command.php';
     WP_CLI::add_command('dma', 'DMA_CLI_Command');
+    WP_CLI::add_command('dma list', ['DMA_CLI_Command', 'list_docs']);
 }
 
 // Activation hook to register rules and flush
