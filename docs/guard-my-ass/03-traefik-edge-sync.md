@@ -37,6 +37,9 @@ For maximum efficiency, repeated attack traffic should never touch the PHP appli
 
 ## Dynamic Configuration Example
 
+> [!NOTE]
+> The negated subnets (`!198.51.100.0/24`, `!203.0.113.0/24`) shown below are sample blocked threat actor subnets populated dynamically by `sync_traefik_swarm.py`. You do not write these IP ranges manually; the sync daemon pulls active malicious `/24` subnets directly from your database and hot-reloads Traefik every 5 minutes.
+
 ```yaml [/root/traefik-dynamic/swarm-block.yml]
 http:
   routers:
@@ -51,6 +54,6 @@ http:
       ipAllowList:
         sourceRange:
           - "0.0.0.0/0"
-          - "!198.51.100.0/24"
-          - "!203.0.113.0/24"
+          - "!<ATTACKER_SUBNET_1>"  # e.g. !198.51.100.0/24 (auto-populated)
+          - "!<ATTACKER_SUBNET_2>"  # e.g. !203.0.113.0/24 (auto-populated)
 ```
