@@ -1,7 +1,7 @@
 ---
 title: "Platform Overview & Central API Architecture"
 slug: "01-getting-started"
-product: "sentinel-api"
+product: "whole-ass-network"
 topic: "Getting Started"
 order: 1
 badge: "Platform API"

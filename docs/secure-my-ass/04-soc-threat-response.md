@@ -25,7 +25,7 @@ The built-in SOC Dossier (`ThreatResponseReportModal`) aggregates:
 
 ---
 
-## 2. Sentinel AI SOC Analyst (Google Gemini 2.5 Flash)
+## 2. A102434 AI SOC Analyst (Google Gemini 2.5 Flash)
 
 By clicking **Ask AI SOC Analyst**, incident telemetry is securely synthesized by Gemini 2.5 Flash:
 * Identifies threat actor TTPs (Tactics, Techniques, and Procedures).

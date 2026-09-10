@@ -148,7 +148,7 @@ class DMA_CLI_Command {
      * @when after_wp_load
      */
     public function build_index($args, $assoc_args) {
-        WP_CLI::log("Compiling search index for all published Sentinel docs...");
+        WP_CLI::log("Compiling search index for all published Doc My A102452 docs...");
         $index = DMA_Search_Indexer::get_or_build_index(true);
         $count = count($index);
         WP_CLI::success("Search index rebuilt with {$count} documents.");

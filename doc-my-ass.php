@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Doc My A$$
  * Plugin URI: https://securemyass.com/docs/
- * Description: Developer-first documentation system for the Security Sentinel Suite. Features sub-millisecond reader, Cmd+K instant fuzzy search, Docs-as-Code Markdown synchronization, multi-tab code snippets, and dynamic scroll-spy navigation.
+ * Description: Developer-first documentation system for the Whole A102434 Network. Features sub-millisecond reader, Cmd+K instant fuzzy search, Docs-as-Code Markdown synchronization, multi-tab code snippets, and dynamic scroll-spy navigation.
  * Version: 1.0.0
  * Author: Cynthia Schomp
  * Author URI: https://cynthiaschomp.com

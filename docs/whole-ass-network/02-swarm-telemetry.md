@@ -1,7 +1,7 @@
 ---
 title: "Swarm Threat Intelligence Telemetry Ingestion"
 slug: "02-swarm-telemetry"
-product: "sentinel-api"
+product: "whole-ass-network"
 topic: "Threat Intelligence"
 order: 2
 badge: "Swarm Defense"
@@ -11,7 +11,7 @@ keywords: ["swarm", "telemetry", "opsec", "cidr", "threat feed"]
 
 # Swarm Threat Intelligence Telemetry Ingestion
 
-The Security Sentinel Suite connects individual WordPress instances into a decentralized defense swarm. When an attacker probes an endpoint on one site, their subnet is neutralized across all protected nodes.
+The Whole A102434 Network connects individual WordPress instances into a decentralized defense swarm. When an attacker probes an endpoint on one site, their subnet is neutralized across all protected nodes.
 
 ---
 

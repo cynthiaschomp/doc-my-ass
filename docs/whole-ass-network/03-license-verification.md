@@ -1,7 +1,7 @@
 ---
 title: "Licensing Lifecycle & Auto-Update Distribution"
 slug: "03-license-verification"
-product: "sentinel-api"
+product: "whole-ass-network"
 topic: "Licensing"
 order: 3
 badge: "Commercial"
@@ -28,7 +28,7 @@ When a customer completes a purchase on `securemyass.com`, Stripe fires a `check
 
 ## 2. Native WordPress Update Integration
 
-Plugins in the Security Sentinel Suite hook into WordPress's native `site_transient_update_plugins` filter:
+Plugins in the Whole A102434 Network hook into WordPress's native `site_transient_update_plugins` filter:
 
 ```php [class-license-client.php]
 // Queries SecureMyAss.com release server
