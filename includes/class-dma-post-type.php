@@ -28,10 +28,10 @@ class DMA_Post_Type {
      */
     public static function register_post_type() {
         $labels = [
-            'name'                  => _x('Sentinel Docs', 'Post Type General Name', 'doc-my-ass'),
-            'singular_name'         => _x('Sentinel Doc', 'Post Type Singular Name', 'doc-my-ass'),
-            'menu_name'             => __('Sentinel Docs', 'doc-my-ass'),
-            'name_admin_bar'        => __('Sentinel Doc', 'doc-my-ass'),
+            'name'                  => _x('Doc My A$$', 'Post Type General Name', 'doc-my-ass'),
+            'singular_name'         => _x('Doc My A$$ Article', 'Post Type Singular Name', 'doc-my-ass'),
+            'menu_name'             => __('Doc My A$$', 'doc-my-ass'),
+            'name_admin_bar'        => __('Doc My A$$', 'doc-my-ass'),
             'archives'              => __('Doc Archives', 'doc-my-ass'),
             'attributes'            => __('Doc Attributes', 'doc-my-ass'),
             'parent_item_colon'     => __('Parent Doc:', 'doc-my-ass'),
@@ -47,8 +47,8 @@ class DMA_Post_Type {
         ];
 
         $args = [
-            'label'                 => __('Sentinel Doc', 'doc-my-ass'),
-            'description'           => __('Technical documentation for Security Sentinel Suite', 'doc-my-ass'),
+            'label'                 => __('Doc My A$$', 'doc-my-ass'),
+            'description'           => __('Technical documentation for Doc My A$$ and the Security Sentinel Suite', 'doc-my-ass'),
             'labels'                => $labels,
             'supports'              => ['title', 'editor', 'author', 'revisions', 'page-attributes', 'custom-fields'],
             'taxonomies'            => ['dma_product', 'dma_topic'],

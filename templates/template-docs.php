@@ -29,7 +29,7 @@ if (empty($req_product_slug)) {
 }
 
 $active_product_term = get_term_by('slug', $req_product_slug, 'dma_product');
-$active_product_name = $active_product_term ? $active_product_term->name : 'Sentinel Documentation';
+$active_product_name = $active_product_term ? $active_product_term->name : 'Doc My A$$';
 $active_product_desc = $active_product_term ? $active_product_term->description : '';
 
 // 2. Fetch all docs for current product, ordered by menu_order
@@ -113,7 +113,7 @@ $product_meta_list = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo esc_html($doc_title); ?> — Secure My Ass Developer Docs</title>
+    <title><?php echo esc_html($doc_title); ?> — Doc My A$$ | SecureMyAss.com</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -133,7 +133,7 @@ $product_meta_list = [
                     <span class="dma-logo-text">SecureMyAss<span class="dma-logo-accent">.com</span></span>
                 </a>
                 <span class="dma-divider">/</span>
-                <span class="dma-badge-docs">DEVELOPER DOCS</span>
+                <span class="dma-badge-docs">DOC MY A$$</span>
             </div>
 
             <!-- Global Search Trigger -->
@@ -208,7 +208,7 @@ $product_meta_list = [
                 
                 <!-- Breadcrumb Bar -->
                 <nav class="dma-breadcrumbs" aria-label="Breadcrumbs">
-                    <a href="<?php echo esc_url(home_url('/docs/')); ?>">Docs</a>
+                    <a href="<?php echo esc_url(home_url('/docs/')); ?>">Doc My A$$</a>
                     <span class="dma-crumb-sep">/</span>
                     <a href="<?php echo esc_url(home_url("/docs/{$req_product_slug}/")); ?>"><?php echo esc_html($active_product_name); ?></a>
                     <span class="dma-crumb-sep">/</span>
@@ -296,7 +296,7 @@ $product_meta_list = [
                 <button type="button" class="dma-modal-close" id="dmaCloseSearchBtn">ESC</button>
             </div>
             <div class="dma-search-results" id="dmaSearchResults">
-                <div class="dma-search-hint">Type a query to search across the entire Security Sentinel Suite...</div>
+                <div class="dma-search-hint">Type a query to search Doc My A$$ across the suite...</div>
             </div>
             <div class="dma-modal-footer">
                 <span class="dma-footer-tip"><kbd>↑</kbd><kbd>↓</kbd> Navigate</span>

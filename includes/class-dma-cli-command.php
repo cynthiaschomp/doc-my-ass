@@ -36,7 +36,7 @@ class DMA_CLI_Command {
             return;
         }
 
-        WP_CLI::log(WP_CLI::colorize("%C=== Syncing Sentinel Docs from Disk ===%n"));
+        WP_CLI::log(WP_CLI::colorize("%C=== Syncing Doc My A$$ from Disk ===%n"));
         WP_CLI::log("Source: {$docs_dir}");
 
         // Find all .md files recursively

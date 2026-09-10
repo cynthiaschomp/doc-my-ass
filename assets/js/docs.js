@@ -233,7 +233,7 @@
         function renderResults(results, query) {
             selectedIndex = -1;
             if (!query) {
-                resultsContainer.innerHTML = '<div class="dma-search-hint">Type a query to search across the entire Security Sentinel Suite...</div>';
+                resultsContainer.innerHTML = '<div class="dma-search-hint">Type a query to search Doc My A$$ across the suite...</div>';
                 return;
             }
 
@@ -245,7 +245,7 @@
             var html = '';
             for (var i = 0; i < results.length; i++) {
                 var doc = results[i];
-                var prodName = (doc.product && doc.product.name) ? doc.product.name : 'Sentinel';
+                var prodName = (doc.product && doc.product.name) ? doc.product.name : 'Doc My A$$';
                 var topicName = doc.topic || 'General';
 
                 html += '<a href="' + doc.url + '" class="dma-result-item" data-index="' + i + '">';
