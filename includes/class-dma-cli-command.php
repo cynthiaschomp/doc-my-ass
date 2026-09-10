@@ -18,18 +18,18 @@ class DMA_CLI_Command {
      *
      * ## OPTIONS
      *
-     * [--path=<dir>]
+     * [--dir=<dir>]
      * : Directory containing markdown documentation files. Defaults to plugin docs directory.
      *
      * ## EXAMPLES
      *
      *     wp dma sync
-     *     wp dma sync --path=/var/www/html/wp-content/plugins/doc-my-ass/docs
+     *     wp dma sync --dir=/var/www/html/wp-content/plugins/doc-my-ass/docs
      *
      * @when after_wp_load
      */
     public function sync($args, $assoc_args) {
-        $docs_dir = isset($assoc_args['path']) ? $assoc_args['path'] : DMA_PATH . 'docs';
+        $docs_dir = isset($assoc_args['dir']) ? $assoc_args['dir'] : DMA_PATH . 'docs';
 
         if (!is_dir($docs_dir)) {
             WP_CLI::error("Documentation directory not found: {$docs_dir}");
