@@ -3,7 +3,7 @@
  * Plugin Name: Doc My A$$
  * Plugin URI: https://securemyass.com/docs/
  * Description: Developer-first documentation system for the Whole A102434 Network. Features sub-millisecond reader, Cmd+K instant fuzzy search, Docs-as-Code Markdown synchronization, multi-tab code snippets, and dynamic scroll-spy navigation.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Cynthia Schomp
  * Author URI: https://cynthiaschomp.com
  * License: Proprietary
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('DMA_VERSION', '1.0.0');
+define('DMA_VERSION', '1.0.1');
 define('DMA_FILE', __FILE__);
 define('DMA_PATH', plugin_dir_path(__FILE__));
 define('DMA_URL', plugin_dir_url(__FILE__));
